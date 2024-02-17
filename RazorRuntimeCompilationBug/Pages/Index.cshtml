@@ -1,0 +1,11 @@
+﻿@page
+
+@{
+    ViewData["Title"] = "Home Page";
+    
+    // Alternatively comment out this to stop the exception, or downgrade to .NET 8.0
+    string[] array = ["Test"];
+}
+
+<p>@array[0]</p>
+
